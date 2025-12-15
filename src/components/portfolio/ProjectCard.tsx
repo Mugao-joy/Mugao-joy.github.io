@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github,Activity, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface ProjectCardProps {
@@ -51,7 +51,7 @@ export function ProjectCard({
                 className="p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
                 aria-label="View on GitHub"
               >
-                <Github size={18} />
+                <Rocket size={18} />
               </a>
             )}
             {liveUrl && (

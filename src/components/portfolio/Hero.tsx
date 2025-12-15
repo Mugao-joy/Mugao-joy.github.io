@@ -49,8 +49,8 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-10"
           >
-            Software Engineer with strong foundations in bioinformatics and cheminformatics — 
-            designing systems that bridge code, data, and biology.
+            Software Engineer with strong foundations in bioinformatics and cheminformatics 
+            designing systems that bridge code, data, and biochemistry.
           </motion.p>
 
           <motion.div

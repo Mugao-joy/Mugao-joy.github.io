@@ -8,12 +8,12 @@ export function Footer() {
       <div className="container-tight">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-sm text-primary-foreground/60">
-            © {currentYear} Joy Mugao. Built with purpose.
+            © {currentYear} Joy Mugao. Building with purpose.
           </div>
           
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/Mugao-joy"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
@@ -22,7 +22,7 @@ export function Footer() {
               <Github size={18} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/joymugao"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
@@ -31,7 +31,7 @@ export function Footer() {
               <Linkedin size={18} />
             </a>
             <a
-              href="mailto:joy.mugao@example.com"
+              href="mailto:mugao.dev@gmail.com"
               className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
               aria-label="Email"
             >

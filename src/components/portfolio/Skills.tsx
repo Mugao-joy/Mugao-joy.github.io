@@ -15,12 +15,12 @@ const skillCategories = [
   },
   {
     title: "Databases & Cloud",
-    skills: ["PostgreSQL", "Redis", "MongoDB", "AWS", "Docker", "Kubernetes"],
+    skills: ["PostgreSQL", "Redis", "MongoDB", "AWS","Azure", ],
     variant: "primary" as const,
   },
   {
     title: "Testing & DevOps",
-    skills: ["pytest", "Jest", "CI/CD", "GitHub Actions", "Terraform", "Git"],
+    skills: ["pytest", "Jest", "CI/CD", "GitHub Actions", "Terraform", "Docker", "Kubernetes","Ansible"],
     variant: "primary" as const,
   },
   {

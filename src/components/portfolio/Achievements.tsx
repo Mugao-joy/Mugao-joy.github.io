@@ -6,40 +6,40 @@ import { Award, GraduationCap, Users, Star } from "lucide-react";
 const achievements = [
   {
     icon: Award,
-    title: "Merit Scholarship Recipient",
-    description: "Full academic scholarship for outstanding performance in Computer Science",
-    year: "2023",
-  },
-  {
-    icon: GraduationCap,
-    title: "Honors Graduate",
-    description: "Graduated with distinction in Bioinformatics and Computer Science",
-    year: "2022",
-  },
-  {
-    icon: Users,
-    title: "Tech Community Leader",
-    description: "Founded and led university coding club with 200+ active members",
-    year: "2021-2023",
+    title: "Equity Leaders Program Scholar",
+    description: "Selected as an Equity Leaders Program scholar for top academic achievement and leadership potential. Admitted into a highly competitive national program that develops high-performing Kenyan students through leadership training, ethics, and professional development, with access to mentorship and internship opportunities.",
+    year: "ongoing",
   },
   {
     icon: Star,
-    title: "Hackathon Winner",
-    description: "First place in regional health-tech hackathon for drug interaction checker",
-    year: "2022",
+    title: "Hackathon Winner  CHAI (Connecting Humans with AI)",
+    description: "First place winner in the CHAI 2-month global hackathon, competing across 8 verticals against 700+ participants from 54 countries.I Led a team of 5 women to build 8 winning AI solutions, later showcased at UN COP30 in Brazil.",
+    year: "2025",
   },
   {
-    icon: Award,
-    title: "Research Publication",
-    description: "Co-authored paper on ML-based molecular property prediction",
-    year: "2023",
+    icon: Star,
+    title: "2nd Runners-Up  Girl Code × Absa Bank Hackathon",
+    description: "Placed 2nd runners-up for designing and building a fintech solution enabling gig economy workers to access banking, insurance, and SACCO services through a financial passport tailored to irregular and non-linear income patterns.",
+    year: "2025",
   },
   {
     icon: Users,
-    title: "Mentorship Program",
-    description: "Mentored 15+ junior developers through open-source contributions",
-    year: "Ongoing",
+    title: "Tech Community Leader  Tech Sister Kenya",
+    description: "Served as Software Engineering Technical Coordinator, mentoring 2,000+ women across different stages of their tech journeys. Led curriculum guidance, coordinated mentorship workshops with Google, and facilitated access to scholarships at Moringa School and internship opportunities.",
+    year: "2023-Present",
   },
+  {
+    icon: Award,
+    title: "Google Top 40 Women in Software Engineering — Kenya",
+    description: "Recognized as one of Google’s Top 40 Women in Software Engineering in Kenya for innovation and impact in distributed systems.",
+    year: "2024",
+  },
+  // {
+  //   icon: Users,
+  //   title: "Mentorship Program",
+  //   description: "Mentored 15+ junior developers through open-source contributions",
+  //   year: "Ongoing",
+  // },
 ];
 
 export function Achievements() {

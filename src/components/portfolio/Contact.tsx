@@ -21,7 +21,7 @@ export function Contact() {
             Let's Connect
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8">
-            I'm always interested in discussing software engineering, bioinformatics, 
+            I'm always interested in discussing software engineering, bio/cheminformatics, 
             and opportunities to build technology that advances medicine.
           </p>
 
@@ -32,27 +32,31 @@ export function Contact() {
               asChild
               className="bg-accent hover:bg-accent/90"
             >
-              <a href="mailto:joy.mugao@example.com">
+              <a href="mailto:mugao.dev@gmail.com">
                 <Mail className="mr-2" size={18} />
-                joy.mugao@example.com
+                mugao.dev@gmail.com
               </a>
             </Button>
             <Button
-              variant="heroOutline"
-              size="lg"
-              asChild
-              className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-            >
-              <a href="#" download>
-                <Download className="mr-2" size={18} />
-                Download Resume
-              </a>
-            </Button>
+  variant="heroOutline"
+  size="lg"
+  asChild
+  className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+>
+  <a
+    href="/JOYMUGAORESUME.pdf"
+    download="JOYMUGAORESUME.pdf"
+  >
+    <Download className="mr-2" size={18} />
+    Download Resume
+  </a>
+</Button>
+
           </div>
 
           <div className="flex justify-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Mugao-joy"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-colors"
@@ -61,7 +65,7 @@ export function Contact() {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/joymugao"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-colors"
@@ -70,7 +74,7 @@ export function Contact() {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:joy.mugao@example.com"
+              href="mailto:mugao.dev@gmail.com"
               className="p-3 rounded-full bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >

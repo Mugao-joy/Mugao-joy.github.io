@@ -11,7 +11,7 @@ const researchProjects = [
     stack: ["Python", "RDKit", "scikit-learn", "XGBoost", "pandas"],
     decisions: "Featurized molecules using Morgan fingerprints; ensemble models for robustness.",
     learned: "Domain-specific feature engineering is critical—chemical intuition improves ML.",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Mugao-joy/ChemInformatics-Projects/tree/main/Molecular%20Property%20Predictor",
   },
   {
     title: "Variant Annotation Pipeline",

@@ -55,7 +55,7 @@ export function About() {
               I'm a <span className="text-foreground font-medium">software engineer</span> who 
               builds with purpose. My work sits at the intersection of 
               <span className="text-accent font-medium"> robust software systems</span> and 
-              <span className="text-science font-medium"> life sciences</span>—developing tools 
+              <span className="text-science font-medium"> life sciences</span>,developing tools 
               that help researchers understand biology and accelerate drug discovery.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -65,8 +65,8 @@ export function About() {
               pipeline, or a molecular analysis workflow, the principles remain the same.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My goal is to bridge the gap between <span className="text-foreground font-medium">code and biology</span>, 
-              creating technology that matters—systems that help scientists make discoveries that 
+              My goal is to bridge the gap between <span className="text-foreground font-medium">code and biochemistry</span>, 
+              creating technology that matters and systems that help scientists make discoveries that 
               improve human health.
             </p>
           </motion.div>

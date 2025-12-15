@@ -9,7 +9,7 @@ const navLinks = [
   { name: "Research", href: "#research" },
   { name: "Skills", href: "#skills" },
   { name: "Achievements", href: "#achievements" },
-  { name: "Contact", href: "#contact" },
+  // { name: "Contact", href: "#contact" },
 ];
 
 export function Header() {
