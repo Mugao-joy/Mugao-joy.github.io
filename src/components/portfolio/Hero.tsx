@@ -67,13 +67,13 @@ export function Hero() {
             </Button>
             <div className="flex gap-3">
               <Button variant="heroOutline" size="lg" asChild>
-                <a href="/contact">
+                <a href="#contact">
                   <Download size={18} />
                   Resume
                 </a>
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
-                <a href="/contact">
+                <a href="#contact">
                   <Mail size={18} />
                   Contact
                 </a>

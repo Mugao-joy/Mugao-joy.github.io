@@ -4,11 +4,11 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { name: "About", href: "/about" },
-  { name: "Projects", href: "/projects" },
-  { name: "Research", href: "/research" },
-  { name: "Skills", href: "/skills" },
-  { name: "Achievements", href: "/achievements" },
+  { name: "About", href: "#about" },
+  { name: "Projects", href: "#projects" },
+  { name: "Research", href: "#research" },
+  { name: "Skills", href: "#skills" },
+  { name: "Achievements", href: "#achievements" },
   // { name: "Contact", href: "#contact" },
 ];
 
@@ -53,7 +53,7 @@ export function Header() {
               </a>
             ))}
             <Button variant="hero" size="sm" asChild>
-              <a href="contact">Get in Touch</a>
+              <a href="#contact">Get in Touch</a>
             </Button>
           </div>
 
@@ -87,7 +87,7 @@ export function Header() {
                 </a>
               ))}
               <Button variant="hero" size="default" asChild className="w-fit">
-                <a href="contact">Get in Touch</a>
+                <a href="#contact">Get in Touch</a>
               </Button>
             </div>
           </motion.div>
